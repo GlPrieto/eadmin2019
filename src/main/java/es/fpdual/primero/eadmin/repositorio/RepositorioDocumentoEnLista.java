@@ -2,6 +2,7 @@ package es.fpdual.primero.eadmin.repositorio;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Repository;
 
@@ -22,6 +23,8 @@ public class RepositorioDocumentoEnLista implements RepositorioDocumento {
 		}
 		
 		documentos.add(documento);
+		System.out.println("Documento " + documento.getNombre()
+				+ " almacenado correctamente");
 	}
 
 	@Override
@@ -36,16 +39,19 @@ public class RepositorioDocumentoEnLista implements RepositorioDocumento {
 	}
 
 	@Override
-	public void eliminarDocumento(int codigoDocumento) {
+	public void eliminarDocumento(int id) {
 		//Solución 1
-		final Documento documentoAEliminar = new Documento (codigoDocumento, null,
+		Documento documentoAEliminar = new Documento (id, null,
 				null, null, null);
 		
-		//Solución 2
-		documentos.stream().filter(d -> d.getId().intValue ==codigoDocumento).
-		findAny().orElse(null);
+		//Solución 2. Gusta menos, pues se recorerá la lista 
+		//entera hasta encontrar el valor.
 		
-		//Para ambas:
+		documentoAEliminar = documentos.stream().
+				filter(d -> d.getId()==id).
+				findAny().orElse(null);
+		
+		
 		final int indice = 
 				documentos.indexOf(documentoAEliminar);
 		documentos.remove(indice);
@@ -55,14 +61,17 @@ public class RepositorioDocumentoEnLista implements RepositorioDocumento {
 		
 	@Override
 	public List<Documento> obtenerTodosDocumentos() {
-		// TODO Auto-generated method stub
-		return null;
+		//Esta bien, pero hay mejores opciones:
+		return this.documentos.stream().collect(Collectors.toList());
 	}
 
 	@Override
 	public int getSiguienteId() {
-		// TODO Auto-generated method stub
-		return 0;
+		if (documentos.isEmpty()) {
+			return 1;
+		}
+		return documentos.get(documentos.size() - 1).getId() + 1;
+		
 	}
 
 }
