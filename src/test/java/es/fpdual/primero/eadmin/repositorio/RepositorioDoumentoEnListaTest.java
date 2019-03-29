@@ -5,6 +5,9 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -62,7 +65,7 @@ public class RepositorioDoumentoEnListaTest {
 		this.repositorioDocumento.altaDocumento(documentoAl);
 		this.repositorioDocumento.modificarDocumento(documentoModificado);
 		
-		assertEquals("doc2",this.repositorioDocumento
+		assertEquals("Doc2",this.repositorioDocumento
 				.obtenerTodosDocumentos()
 				.get(0).getNombre());
 	}
@@ -90,15 +93,19 @@ public class RepositorioDoumentoEnListaTest {
 	
 	@Test
 	public void deberiaDevolverElSiguienteDocumento () {
-
-		Documento documento2 = mock (Documento.class);
-		when(documento.getNombre()).thenReturn("doc1");
-		when(documento.getId()).thenReturn(1);
-		when(documento2.getNombre()).thenReturn("doc2");
-		when(documento2.getId()).thenReturn(2);
 		
-		this.repositorioDocumento.altaDocumento(documento);
-		this.repositorioDocumento.altaDocumento(documento2);
+		List<Documento> documentos = new ArrayList<>();
+		documentos.add(documento);
+		when(documento.getNombre()).thenReturn("documento1");
+		when(documento.getId()).thenReturn(5);
+		Documento doc2 = mock (Documento.class);
+		documentos.add(doc2);
+		when(doc2.getNombre()).thenReturn("doc2");
+		when(doc2.getId()).thenReturn(6);
+		
+		assertEquals(1,repositorioDocumento.getSiguienteId());
+		
+		
 		
 	}
 	
