@@ -57,11 +57,6 @@ public class RepositorioDoumentoEnListaTest {
 		Documento documentoAl = new Documento(20, "Doc1", null, null, null);
 		Documento documentoModificado = new Documento(20, "Doc2", null, null, null);
 		
-//		when(documento.getId()).thenReturn(20);
-//		when(documentoModificado.getId()).thenReturn(20);
-//		when(documento.getNombre()).thenReturn("doc1");
-//		when(documentoModificado.getNombre()).thenReturn("doc2");
-		
 		this.repositorioDocumento.altaDocumento(documentoAl);
 		this.repositorioDocumento.modificarDocumento(documentoModificado);
 		
@@ -97,11 +92,11 @@ public class RepositorioDoumentoEnListaTest {
 		List<Documento> documentos = new ArrayList<>();
 		documentos.add(documento);
 		when(documento.getNombre()).thenReturn("documento1");
-		when(documento.getId()).thenReturn(5);
+		when(documento.getId()).thenReturn(1);
 		Documento doc2 = mock (Documento.class);
 		documentos.add(doc2);
 		when(doc2.getNombre()).thenReturn("doc2");
-		when(doc2.getId()).thenReturn(6);
+		when(doc2.getId()).thenReturn(2);
 		
 		assertEquals(1,repositorioDocumento.getSiguienteId());
 		
