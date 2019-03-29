@@ -40,6 +40,7 @@ public class RepositorioDocumentoEnLista implements RepositorioDocumento {
 
 	@Override
 	public void eliminarDocumento(int id) {
+		
 		//Solución 1
 		Documento documentoAEliminar = new Documento (id, null,
 				null, null, null);
@@ -47,14 +48,17 @@ public class RepositorioDocumentoEnLista implements RepositorioDocumento {
 		//Solución 2. Gusta menos, pues se recorerá la lista 
 		//entera hasta encontrar el valor.
 		
-		documentoAEliminar = documentos.stream().
-				filter(d -> d.getId()==id).
-				findAny().orElse(null);
+//		documentoAEliminar = documentos.stream().
+//				filter(d -> d.getId()==id).
+//				findAny().orElse(null);
 		
 		
 		final int indice = 
 				documentos.indexOf(documentoAEliminar);
-		documentos.remove(indice);
+		if (indice >= 0) {
+		documentos.remove(indice);		
+			
+		}
 		
 		
 	}

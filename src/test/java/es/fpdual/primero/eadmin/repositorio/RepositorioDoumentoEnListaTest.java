@@ -77,32 +77,40 @@ public class RepositorioDoumentoEnListaTest {
 	@Test
 	public void deberiaEliminarDocumento () {
 
-		when(documento.getNombre()).thenReturn("documento1");
-		when(documento.getId()).thenReturn(5);
+		when(documento.getId()).thenReturn(20);
 		
 		this.repositorioDocumento.altaDocumento(documento);
-		this.repositorioDocumento.eliminarDocumento(documento.getId());
+		this.repositorioDocumento.eliminarDocumento(20);
 		
-		assertFalse(this.repositorioDocumento.obtenerTodosDocumentos().contains(documento));
+		//No seria totalmente correcto, pues no se ejecutaría el equals
+		//assertFalse(this.repositorioDocumento.obtenerTodosDocumentos().contains(documento));
+		
+		assertTrue(this.repositorioDocumento.obtenerTodosDocumentos().isEmpty());
+	}
+	
+	@Test
+	public void deberiaNoHacerNadaSiElDocumentoAEliminarNoExiste () {
+		
+		this.repositorioDocumento.eliminarDocumento(20);
+		
 	}
 	
 	@Test
 	public void deberiaDevolverElSiguienteDocumento () {
 		
-		List<Documento> documentos = new ArrayList<>();
-		documentos.add(documento);
-		when(documento.getNombre()).thenReturn("documento1");
-		when(documento.getId()).thenReturn(1);
-		Documento doc2 = mock (Documento.class);
-		documentos.add(doc2);
-		when(doc2.getNombre()).thenReturn("doc2");
-		when(doc2.getId()).thenReturn(2);
-		
-		assertEquals(1,repositorioDocumento.getSiguienteId());
-		
-		
-		
+		this.repositorioDocumento.altaDocumento(documento);
+		when(documento.getId()).thenReturn(20);
+		when(documento.getNombre()).thenReturn("doc20");
+		assertEquals(21,repositorioDocumento.getSiguienteId());
+
 	}
 	
+	@Test
+	public void deberiaDevolver1SiLaListaEstaVacia () {
+
+		assertEquals(1,repositorioDocumento.getSiguienteId());
+		
+	}
+	 
 	
 }
