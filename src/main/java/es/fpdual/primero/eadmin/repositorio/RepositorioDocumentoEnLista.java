@@ -78,4 +78,10 @@ public class RepositorioDocumentoEnLista implements RepositorioDocumento {
 		
 	}
 
+	@Override
+	public Documento obtenerDocumentoPorId(int codigoDocumento) {
+		
+		return this.documentos.stream().filter(d -> d.getId() == codigoDocumento).findFirst().orElse(null);
+	}
+
 }
