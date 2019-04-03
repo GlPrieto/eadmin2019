@@ -2,6 +2,7 @@ package es.fpdual.primero.eadmin;
 
 import java.util.Date;
 
+import org.apache.log4j.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -13,6 +14,8 @@ import es.fpdual.primero.eadmin.modelo.Usuario;
 
 @SpringBootApplication
 public class EadminApplication {
+	
+	private static final Logger logger = LogManager.getLogger(EadminApplication.class);
 
 	public static void main(String[] args) {
 		
@@ -23,6 +26,7 @@ public class EadminApplication {
 		
 		final Documento documento = new DocumentoContable (15, "operacion", usuario, fecha, "99991254684686");
 		
+		
 //		final Expediente expediente = new Expediente(1,"expediente1", usuario, fecha, tipoExpediente.EXPEDIENTE_SANCIONADOR,);
 		
 		documentoContable.getNumeroOperacionContable();
@@ -31,7 +35,11 @@ public class EadminApplication {
 //		documentoContable, pues solo puede ver los métodos de las 
 //		clases de las que hereda y los propios.
 		
+		logger.info("Iniciando servicio");
 		SpringApplication.run(EadminApplication.class, args);
+		logger.info("Finalizando servicio");
+		
+		logger.trace("Nueva traza");
 	}
 
 }

@@ -13,10 +13,12 @@ import es.fpdual.primero.eadmin.repositorio.RepositorioDocumento;
 public class ServicioDocumentoImpl implements ServicioDocumento {
 
 		private final RepositorioDocumento repositorioDocumento;
+		
 		@Autowired
 		public ServicioDocumentoImpl (RepositorioDocumento repositorioDocumento) {
 			this.repositorioDocumento = repositorioDocumento;
 		}
+		
 	@Override
 	public Documento altaDocumento(Documento documento) {
 		final int siguienteId = repositorioDocumento.getSiguienteId();

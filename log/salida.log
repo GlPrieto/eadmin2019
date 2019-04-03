@@ -1,0 +1,63 @@
+2019-04-03 14:20:56,843  INFO   [EadminApplication] Iniciando servicio 
+2019-04-03 14:20:59,788  INFO   [EadminApplication] Finalizando servicio 
+2019-04-03 14:20:59,788  TRACE  [EadminApplication] Nueva traza 
+2019-04-03 14:21:36,920  INFO   [EadminApplication] Documento nº1 creado correctamente 
+2019-04-03 14:21:36,920  INFO   [EadminApplication] 
+************************************************************ 
+2019-04-03 14:21:36,921  INFO   [EadminApplication] Documento creado correctamente 
+2019-04-03 14:21:36,921  INFO   [EadminApplication] ID: 1 
+2019-04-03 14:21:36,921  INFO   [EadminApplication] Nombre: nombre PPPP 
+2019-04-03 14:21:36,921  INFO   [EadminApplication] Usuario: 1 
+2019-04-03 14:21:36,921  INFO   [EadminApplication] usuario1 
+2019-04-03 14:21:36,923  INFO   [EadminApplication] cargo1 
+2019-04-03 14:21:36,929  INFO   [EadminApplication] Fecha creación: Wed Apr 03 14:21:36 CEST 2019 
+2019-04-03 14:21:36,929  INFO   [EadminApplication] Tipo de documento: DOCUMENTO_PADRON 
+2019-04-03 14:21:36,929  INFO   [EadminApplication] ************************************************************ 
+2019-04-03 14:21:50,427  INFO   [EadminApplication] Documento nº2 creado correctamente 
+2019-04-03 14:21:50,427  TRACE  [EadminApplication] 
+************************************************************ 
+2019-04-03 14:21:50,427  TRACE  [EadminApplication] Documento creado correctamente 
+2019-04-03 14:21:50,427  TRACE  [EadminApplication] ID: 2 
+2019-04-03 14:21:50,427  TRACE  [EadminApplication] Nombre: nombre CCCC 
+2019-04-03 14:21:50,427  TRACE  [EadminApplication] Usuario: 2 
+2019-04-03 14:21:50,427  TRACE  [EadminApplication] usuario2 
+2019-04-03 14:21:50,427  TRACE  [EadminApplication] cargo2 
+2019-04-03 14:21:50,427  TRACE  [EadminApplication] Fecha creación: Wed Apr 03 14:21:50 CEST 2019 
+2019-04-03 14:21:50,427  TRACE  [EadminApplication] Tipo de documento: DOCUMENTO_CONTABLE 
+2019-04-03 14:21:50,427  TRACE  [EadminApplication] ************************************************************ 
+2019-04-03 14:22:04,707  INFO   [EadminApplication] Documento nº3 creado correctamente 
+2019-04-03 14:22:04,708  WARN   [EadminApplication] 
+************************************************************ 
+2019-04-03 14:22:04,708  WARN   [EadminApplication] Documento creado correctamente 
+2019-04-03 14:22:04,708  WARN   [EadminApplication] ID: 3 
+2019-04-03 14:22:04,708  WARN   [EadminApplication] Nombre: nombre NNNN 
+2019-04-03 14:22:04,708  WARN   [EadminApplication] Usuario: 3 
+2019-04-03 14:22:04,708  WARN   [EadminApplication] usuario3 
+2019-04-03 14:22:04,708  WARN   [EadminApplication] cargo3 
+2019-04-03 14:22:04,708  WARN   [EadminApplication] Fecha creación: Wed Apr 03 14:22:04 CEST 2019 
+2019-04-03 14:22:04,708  WARN   [EadminApplication] Tipo de documento: DOCUMENTO_NOMINA 
+2019-04-03 14:22:04,708  WARN   [EadminApplication] ************************************************************ 
+2019-04-03 14:22:29,287  INFO   [EadminApplication] Documento nº4 creado correctamente 
+2019-04-03 14:22:29,287  INFO   [EadminApplication] 
+************************************************************ 
+2019-04-03 14:22:29,287  ERROR  [EadminApplication] Documento creado correctamente 
+2019-04-03 14:22:29,287  ERROR  [EadminApplication] ID: 4 
+2019-04-03 14:22:29,287  ERROR  [EadminApplication] Nombre: nombre SSSS 
+2019-04-03 14:22:29,287  WARN   [EadminApplication] Usuario: 4 
+2019-04-03 14:22:29,287  WARN   [EadminApplication] usuario4 
+2019-04-03 14:22:29,287  WARN   [EadminApplication] cargo4 
+2019-04-03 14:22:29,287  DEBUG  [EadminApplication] Fecha creación: Wed Apr 03 14:22:29 CEST 2019 
+2019-04-03 14:22:29,287  DEBUG  [EadminApplication] Tipo de documento: DOCUMENTO_SUBVENCION 
+2019-04-03 14:22:29,287  INFO   [EadminApplication] ************************************************************ 
+2019-04-03 14:22:46,224  INFO   [EadminApplication] Documento nº5 creado correctamente 
+2019-04-03 14:22:46,224  DEBUG  [EadminApplication] 
+************************************************************ 
+2019-04-03 14:22:46,224  DEBUG  [EadminApplication] Documento creado correctamente 
+2019-04-03 14:22:46,224  DEBUG  [EadminApplication] ID: 5 
+2019-04-03 14:22:46,224  DEBUG  [EadminApplication] Nombre: nombre FFFF 
+2019-04-03 14:22:46,224  DEBUG  [EadminApplication] Usuario: 5 
+2019-04-03 14:22:46,224  DEBUG  [EadminApplication] usuario5 
+2019-04-03 14:22:46,224  DEBUG  [EadminApplication] cargo5 
+2019-04-03 14:22:46,224  DEBUG  [EadminApplication] Fecha creación: Wed Apr 03 14:22:46 CEST 2019 
+2019-04-03 14:22:46,224  DEBUG  [EadminApplication] Tipo de documento: DOCUMENTO_FACTURA 
+2019-04-03 14:22:46,224  DEBUG  [EadminApplication] ************************************************************ 
