@@ -1,63 +1,168 @@
-2019-04-03 14:20:56,843  INFO   [EadminApplication] Iniciando servicio 
-2019-04-03 14:20:59,788  INFO   [EadminApplication] Finalizando servicio 
-2019-04-03 14:20:59,788  TRACE  [EadminApplication] Nueva traza 
-2019-04-03 14:21:36,920  INFO   [EadminApplication] Documento nº1 creado correctamente 
-2019-04-03 14:21:36,920  INFO   [EadminApplication] 
+2019-04-04 11:51:17,459  INFO   [EadminApplication] Iniciando servicio 
+2019-04-04 11:51:20,149  INFO   [EadminApplication] Finalizando servicio 
+2019-04-04 11:51:24,731  INFO   [EadminApplication] Documento nº1 creado correctamente 
+2019-04-04 11:51:24,731  INFO   [EadminApplication] 
 ************************************************************ 
-2019-04-03 14:21:36,921  INFO   [EadminApplication] Documento creado correctamente 
-2019-04-03 14:21:36,921  INFO   [EadminApplication] ID: 1 
-2019-04-03 14:21:36,921  INFO   [EadminApplication] Nombre: nombre PPPP 
-2019-04-03 14:21:36,921  INFO   [EadminApplication] Usuario: 1 
-2019-04-03 14:21:36,921  INFO   [EadminApplication] usuario1 
-2019-04-03 14:21:36,923  INFO   [EadminApplication] cargo1 
-2019-04-03 14:21:36,929  INFO   [EadminApplication] Fecha creación: Wed Apr 03 14:21:36 CEST 2019 
-2019-04-03 14:21:36,929  INFO   [EadminApplication] Tipo de documento: DOCUMENTO_PADRON 
-2019-04-03 14:21:36,929  INFO   [EadminApplication] ************************************************************ 
-2019-04-03 14:21:50,427  INFO   [EadminApplication] Documento nº2 creado correctamente 
-2019-04-03 14:21:50,427  TRACE  [EadminApplication] 
+2019-04-04 11:51:24,731  INFO   [EadminApplication] Documento creado correctamente 
+2019-04-04 11:51:24,731  INFO   [EadminApplication] ID: 1 
+2019-04-04 11:51:24,731  INFO   [EadminApplication] Nombre: nombre PPPP 
+2019-04-04 11:51:24,731  INFO   [EadminApplication] Usuario: 5 
+2019-04-04 11:51:24,731  INFO   [EadminApplication] usuario5 
+2019-04-04 11:51:24,732  INFO   [EadminApplication] cargo5 
+2019-04-04 11:51:24,732  INFO   [EadminApplication] Fecha creación: Thu Apr 04 11:51:24 CEST 2019 
+2019-04-04 11:51:24,732  INFO   [EadminApplication] Tipo de documento: DOCUMENTO_PADRON 
+2019-04-04 11:51:24,732  INFO   [EadminApplication] ************************************************************ 
+2019-04-04 11:51:24,733  ERROR  [EadminApplication] El fichero ya existe 
+2019-04-04 12:33:36,244  INFO   [EadminApplication] Iniciando servicio 
+2019-04-04 12:33:38,853  INFO   [EadminApplication] Finalizando servicio 
+2019-04-04 12:34:05,224  INFO   [EadminApplication] Documento nº1 creado correctamente 
+2019-04-04 12:34:05,224  INFO   [EadminApplication] 
 ************************************************************ 
-2019-04-03 14:21:50,427  TRACE  [EadminApplication] Documento creado correctamente 
-2019-04-03 14:21:50,427  TRACE  [EadminApplication] ID: 2 
-2019-04-03 14:21:50,427  TRACE  [EadminApplication] Nombre: nombre CCCC 
-2019-04-03 14:21:50,427  TRACE  [EadminApplication] Usuario: 2 
-2019-04-03 14:21:50,427  TRACE  [EadminApplication] usuario2 
-2019-04-03 14:21:50,427  TRACE  [EadminApplication] cargo2 
-2019-04-03 14:21:50,427  TRACE  [EadminApplication] Fecha creación: Wed Apr 03 14:21:50 CEST 2019 
-2019-04-03 14:21:50,427  TRACE  [EadminApplication] Tipo de documento: DOCUMENTO_CONTABLE 
-2019-04-03 14:21:50,427  TRACE  [EadminApplication] ************************************************************ 
-2019-04-03 14:22:04,707  INFO   [EadminApplication] Documento nº3 creado correctamente 
-2019-04-03 14:22:04,708  WARN   [EadminApplication] 
+2019-04-04 12:34:05,225  INFO   [EadminApplication] Documento creado correctamente 
+2019-04-04 12:34:05,225  INFO   [EadminApplication] ID: 1 
+2019-04-04 12:34:05,225  INFO   [EadminApplication] Nombre: nombre PPPP 
+2019-04-04 12:34:05,225  INFO   [EadminApplication] Usuario: 1 
+2019-04-04 12:34:05,225  INFO   [EadminApplication] usuario1 
+2019-04-04 12:34:05,225  INFO   [EadminApplication] cargo1 
+2019-04-04 12:34:05,225  INFO   [EadminApplication] Fecha creación: Thu Apr 04 12:34:05 CEST 2019 
+2019-04-04 12:34:05,225  INFO   [EadminApplication] Tipo de documento: DOCUMENTO_PADRON 
+2019-04-04 12:34:05,225  INFO   [EadminApplication] ************************************************************ 
+2019-04-04 12:34:05,226  ERROR  [EadminApplication] El fichero ya existe 
+2019-04-04 12:34:22,861  INFO   [EadminApplication] Documento nº2 creado correctamente 
+2019-04-04 12:34:22,863  DEBUG  [EadminApplication] 
 ************************************************************ 
-2019-04-03 14:22:04,708  WARN   [EadminApplication] Documento creado correctamente 
-2019-04-03 14:22:04,708  WARN   [EadminApplication] ID: 3 
-2019-04-03 14:22:04,708  WARN   [EadminApplication] Nombre: nombre NNNN 
-2019-04-03 14:22:04,708  WARN   [EadminApplication] Usuario: 3 
-2019-04-03 14:22:04,708  WARN   [EadminApplication] usuario3 
-2019-04-03 14:22:04,708  WARN   [EadminApplication] cargo3 
-2019-04-03 14:22:04,708  WARN   [EadminApplication] Fecha creación: Wed Apr 03 14:22:04 CEST 2019 
-2019-04-03 14:22:04,708  WARN   [EadminApplication] Tipo de documento: DOCUMENTO_NOMINA 
-2019-04-03 14:22:04,708  WARN   [EadminApplication] ************************************************************ 
-2019-04-03 14:22:29,287  INFO   [EadminApplication] Documento nº4 creado correctamente 
-2019-04-03 14:22:29,287  INFO   [EadminApplication] 
+2019-04-04 12:34:22,863  DEBUG  [EadminApplication] Documento creado correctamente 
+2019-04-04 12:34:22,863  DEBUG  [EadminApplication] ID: 2 
+2019-04-04 12:34:22,863  DEBUG  [EadminApplication] Nombre: nombre FFFF 
+2019-04-04 12:34:22,863  DEBUG  [EadminApplication] Usuario: 2 
+2019-04-04 12:34:22,863  DEBUG  [EadminApplication] usuario2 
+2019-04-04 12:34:22,863  DEBUG  [EadminApplication] cargo2 
+2019-04-04 12:34:22,863  DEBUG  [EadminApplication] Fecha creación: Thu Apr 04 12:34:22 CEST 2019 
+2019-04-04 12:34:22,863  DEBUG  [EadminApplication] Tipo de documento: DOCUMENTO_FACTURA 
+2019-04-04 12:34:22,863  DEBUG  [EadminApplication] ************************************************************ 
+2019-04-04 12:34:22,864  ERROR  [EadminApplication] El fichero ya existe 
+2019-04-04 12:35:12,198  INFO   [EadminApplication] Iniciando servicio 
+2019-04-04 12:35:14,920  INFO   [EadminApplication] Finalizando servicio 
+2019-04-04 12:35:44,511  INFO   [EadminApplication] Documento nº1 creado correctamente 
+2019-04-04 12:35:44,511  TRACE  [EadminApplication] 
 ************************************************************ 
-2019-04-03 14:22:29,287  ERROR  [EadminApplication] Documento creado correctamente 
-2019-04-03 14:22:29,287  ERROR  [EadminApplication] ID: 4 
-2019-04-03 14:22:29,287  ERROR  [EadminApplication] Nombre: nombre SSSS 
-2019-04-03 14:22:29,287  WARN   [EadminApplication] Usuario: 4 
-2019-04-03 14:22:29,287  WARN   [EadminApplication] usuario4 
-2019-04-03 14:22:29,287  WARN   [EadminApplication] cargo4 
-2019-04-03 14:22:29,287  DEBUG  [EadminApplication] Fecha creación: Wed Apr 03 14:22:29 CEST 2019 
-2019-04-03 14:22:29,287  DEBUG  [EadminApplication] Tipo de documento: DOCUMENTO_SUBVENCION 
-2019-04-03 14:22:29,287  INFO   [EadminApplication] ************************************************************ 
-2019-04-03 14:22:46,224  INFO   [EadminApplication] Documento nº5 creado correctamente 
-2019-04-03 14:22:46,224  DEBUG  [EadminApplication] 
+2019-04-04 12:35:44,511  TRACE  [EadminApplication] Documento creado correctamente 
+2019-04-04 12:35:44,511  TRACE  [EadminApplication] ID: 1 
+2019-04-04 12:35:44,511  TRACE  [EadminApplication] Nombre: nombre CCCC 
+2019-04-04 12:35:44,511  TRACE  [EadminApplication] Usuario: 1 
+2019-04-04 12:35:44,511  TRACE  [EadminApplication] usuario1 
+2019-04-04 12:35:44,511  TRACE  [EadminApplication] cargo1 
+2019-04-04 12:35:44,513  TRACE  [EadminApplication] Fecha creación: Thu Apr 04 12:35:44 CEST 2019 
+2019-04-04 12:35:44,513  TRACE  [EadminApplication] Tipo de documento: DOCUMENTO_CONTABLE 
+2019-04-04 12:35:44,513  TRACE  [EadminApplication] ************************************************************ 
+2019-04-04 12:35:44,514  ERROR  [EadminApplication] El fichero no existe, creando documento 1 
+2019-04-04 12:36:50,566  INFO   [EadminApplication] Documento nº2 creado correctamente 
+2019-04-04 12:36:50,566  TRACE  [EadminApplication] 
 ************************************************************ 
-2019-04-03 14:22:46,224  DEBUG  [EadminApplication] Documento creado correctamente 
-2019-04-03 14:22:46,224  DEBUG  [EadminApplication] ID: 5 
-2019-04-03 14:22:46,224  DEBUG  [EadminApplication] Nombre: nombre FFFF 
-2019-04-03 14:22:46,224  DEBUG  [EadminApplication] Usuario: 5 
-2019-04-03 14:22:46,224  DEBUG  [EadminApplication] usuario5 
-2019-04-03 14:22:46,224  DEBUG  [EadminApplication] cargo5 
-2019-04-03 14:22:46,224  DEBUG  [EadminApplication] Fecha creación: Wed Apr 03 14:22:46 CEST 2019 
-2019-04-03 14:22:46,224  DEBUG  [EadminApplication] Tipo de documento: DOCUMENTO_FACTURA 
-2019-04-03 14:22:46,224  DEBUG  [EadminApplication] ************************************************************ 
+2019-04-04 12:36:50,566  TRACE  [EadminApplication] Documento creado correctamente 
+2019-04-04 12:36:50,566  TRACE  [EadminApplication] ID: 2 
+2019-04-04 12:36:50,566  TRACE  [EadminApplication] Nombre: nombre CCCC 
+2019-04-04 12:36:50,566  TRACE  [EadminApplication] Usuario: 1 
+2019-04-04 12:36:50,566  TRACE  [EadminApplication] usuario1 
+2019-04-04 12:36:50,566  TRACE  [EadminApplication] cargo1 
+2019-04-04 12:36:50,566  TRACE  [EadminApplication] Fecha creación: Thu Apr 04 12:36:50 CEST 2019 
+2019-04-04 12:36:50,566  TRACE  [EadminApplication] Tipo de documento: DOCUMENTO_CONTABLE 
+2019-04-04 12:36:50,567  TRACE  [EadminApplication] ************************************************************ 
+2019-04-04 12:36:50,567  ERROR  [EadminApplication] El fichero ya existe 
+2019-04-04 12:37:04,594  INFO   [EadminApplication] Documento nº3 creado correctamente 
+2019-04-04 12:37:04,594  DEBUG  [EadminApplication] 
+************************************************************ 
+2019-04-04 12:37:04,594  DEBUG  [EadminApplication] Documento creado correctamente 
+2019-04-04 12:37:04,594  DEBUG  [EadminApplication] ID: 3 
+2019-04-04 12:37:04,594  DEBUG  [EadminApplication] Nombre: nombre FFFF 
+2019-04-04 12:37:04,594  DEBUG  [EadminApplication] Usuario: 2 
+2019-04-04 12:37:04,594  DEBUG  [EadminApplication] usuario2 
+2019-04-04 12:37:04,594  DEBUG  [EadminApplication] cargo2 
+2019-04-04 12:37:04,596  DEBUG  [EadminApplication] Fecha creación: Thu Apr 04 12:37:04 CEST 2019 
+2019-04-04 12:37:04,596  DEBUG  [EadminApplication] Tipo de documento: DOCUMENTO_FACTURA 
+2019-04-04 12:37:04,596  DEBUG  [EadminApplication] ************************************************************ 
+2019-04-04 12:37:04,597  ERROR  [EadminApplication] El fichero no existe, creando documento 3 
+2019-04-04 12:38:09,344  INFO   [EadminApplication] Iniciando servicio 
+2019-04-04 12:38:12,392  INFO   [EadminApplication] Finalizando servicio 
+2019-04-04 12:38:22,646  INFO   [EadminApplication] Documento nº1 creado correctamente 
+2019-04-04 12:38:22,646  DEBUG  [EadminApplication] 
+************************************************************ 
+2019-04-04 12:38:22,646  DEBUG  [EadminApplication] Documento creado correctamente 
+2019-04-04 12:38:22,646  DEBUG  [EadminApplication] ID: 1 
+2019-04-04 12:38:22,646  DEBUG  [EadminApplication] Nombre: nombre FFFF 
+2019-04-04 12:38:22,646  DEBUG  [EadminApplication] Usuario: 2 
+2019-04-04 12:38:22,646  DEBUG  [EadminApplication] usuario2 
+2019-04-04 12:38:22,646  DEBUG  [EadminApplication] cargo2 
+2019-04-04 12:38:22,646  DEBUG  [EadminApplication] Fecha creación: Thu Apr 04 12:38:22 CEST 2019 
+2019-04-04 12:38:22,646  DEBUG  [EadminApplication] Tipo de documento: DOCUMENTO_FACTURA 
+2019-04-04 12:38:22,646  DEBUG  [EadminApplication] ************************************************************ 
+2019-04-04 12:38:22,648  ERROR  [EadminApplication] El fichero ya existe 
+2019-04-04 12:38:36,849  INFO   [EadminApplication] Documento nº2 creado correctamente 
+2019-04-04 12:38:36,849  TRACE  [EadminApplication] 
+************************************************************ 
+2019-04-04 12:38:36,849  TRACE  [EadminApplication] Documento creado correctamente 
+2019-04-04 12:38:36,849  TRACE  [EadminApplication] ID: 2 
+2019-04-04 12:38:36,849  TRACE  [EadminApplication] Nombre: nombre CCCC 
+2019-04-04 12:38:36,849  TRACE  [EadminApplication] Usuario: 3 
+2019-04-04 12:38:36,849  TRACE  [EadminApplication] usuario3 
+2019-04-04 12:38:36,849  TRACE  [EadminApplication] cargo3 
+2019-04-04 12:38:36,849  TRACE  [EadminApplication] Fecha creación: Thu Apr 04 12:38:36 CEST 2019 
+2019-04-04 12:38:36,849  TRACE  [EadminApplication] Tipo de documento: DOCUMENTO_CONTABLE 
+2019-04-04 12:38:36,849  TRACE  [EadminApplication] ************************************************************ 
+2019-04-04 12:38:36,868  ERROR  [EadminApplication] El fichero ya existe 
+2019-04-04 12:39:32,516  INFO   [EadminApplication] Iniciando servicio 
+2019-04-04 12:39:35,790  INFO   [EadminApplication] Finalizando servicio 
+2019-04-04 12:40:19,210  INFO   [EadminApplication] Documento nº1 creado correctamente 
+2019-04-04 12:40:19,210  DEBUG  [EadminApplication] 
+************************************************************ 
+2019-04-04 12:40:19,210  DEBUG  [EadminApplication] Documento creado correctamente 
+2019-04-04 12:40:19,210  DEBUG  [EadminApplication] ID: 1 
+2019-04-04 12:40:19,210  DEBUG  [EadminApplication] Nombre: nombre FFFF 
+2019-04-04 12:40:19,210  DEBUG  [EadminApplication] Usuario: 2 
+2019-04-04 12:40:19,210  DEBUG  [EadminApplication] usuario2 
+2019-04-04 12:40:19,210  DEBUG  [EadminApplication] cargo2 
+2019-04-04 12:40:19,210  DEBUG  [EadminApplication] Fecha creación: Thu Apr 04 12:40:19 CEST 2019 
+2019-04-04 12:40:19,210  DEBUG  [EadminApplication] Tipo de documento: DOCUMENTO_FACTURA 
+2019-04-04 12:40:19,210  DEBUG  [EadminApplication] ************************************************************ 
+2019-04-04 12:40:19,212  ERROR  [EadminApplication] El fichero no existe, creando documento 1 
+2019-04-04 12:40:38,389  INFO   [EadminApplication] Documento nº2 creado correctamente 
+2019-04-04 12:40:38,389  TRACE  [EadminApplication] 
+************************************************************ 
+2019-04-04 12:40:38,389  TRACE  [EadminApplication] Documento creado correctamente 
+2019-04-04 12:40:38,389  TRACE  [EadminApplication] ID: 2 
+2019-04-04 12:40:38,389  TRACE  [EadminApplication] Nombre: nombre CCCC 
+2019-04-04 12:40:38,389  TRACE  [EadminApplication] Usuario: 3 
+2019-04-04 12:40:38,389  TRACE  [EadminApplication] usuario3 
+2019-04-04 12:40:38,389  TRACE  [EadminApplication] cargo3 
+2019-04-04 12:40:38,389  TRACE  [EadminApplication] Fecha creación: Thu Apr 04 12:40:38 CEST 2019 
+2019-04-04 12:40:38,389  TRACE  [EadminApplication] Tipo de documento: DOCUMENTO_CONTABLE 
+2019-04-04 12:40:38,389  TRACE  [EadminApplication] ************************************************************ 
+2019-04-04 12:40:38,391  ERROR  [EadminApplication] El fichero no existe, creando documento 2 
+2019-04-04 12:43:07,101  INFO   [EadminApplication] Iniciando servicio 
+2019-04-04 12:43:09,749  INFO   [EadminApplication] Finalizando servicio 
+2019-04-04 12:43:17,115  INFO   [EadminApplication] Documento nº1 creado correctamente 
+2019-04-04 12:43:17,116  TRACE  [EadminApplication] 
+************************************************************ 
+2019-04-04 12:43:17,116  TRACE  [EadminApplication] Documento creado correctamente 
+2019-04-04 12:43:17,116  TRACE  [EadminApplication] ID: 1 
+2019-04-04 12:43:17,116  TRACE  [EadminApplication] Nombre: nombre CCCC 
+2019-04-04 12:43:17,116  TRACE  [EadminApplication] Usuario: 1 
+2019-04-04 12:43:17,116  TRACE  [EadminApplication] usuario1 
+2019-04-04 12:43:17,116  TRACE  [EadminApplication] cargo1 
+2019-04-04 12:43:17,116  TRACE  [EadminApplication] Fecha creación: Thu Apr 04 12:43:17 CEST 2019 
+2019-04-04 12:43:17,116  TRACE  [EadminApplication] Tipo de documento: DOCUMENTO_CONTABLE 
+2019-04-04 12:43:17,116  TRACE  [EadminApplication] ************************************************************ 
+2019-04-04 12:43:17,118  ERROR  [EadminApplication] El fichero ya existe 
+2019-04-04 12:43:27,704  INFO   [EadminApplication] Documento nº2 creado correctamente 
+2019-04-04 12:43:27,704  DEBUG  [EadminApplication] 
+************************************************************ 
+2019-04-04 12:43:27,704  DEBUG  [EadminApplication] Documento creado correctamente 
+2019-04-04 12:43:27,704  DEBUG  [EadminApplication] ID: 2 
+2019-04-04 12:43:27,704  DEBUG  [EadminApplication] Nombre: nombre FFFF 
+2019-04-04 12:43:27,704  DEBUG  [EadminApplication] Usuario: 2 
+2019-04-04 12:43:27,704  DEBUG  [EadminApplication] usuario2 
+2019-04-04 12:43:27,704  DEBUG  [EadminApplication] cargo2 
+2019-04-04 12:43:27,704  DEBUG  [EadminApplication] Fecha creación: Thu Apr 04 12:43:27 CEST 2019 
+2019-04-04 12:43:27,704  DEBUG  [EadminApplication] Tipo de documento: DOCUMENTO_FACTURA 
+2019-04-04 12:43:27,704  DEBUG  [EadminApplication] ************************************************************ 
+2019-04-04 12:43:27,706  ERROR  [EadminApplication] El fichero ya existe 

@@ -1,0 +1,156 @@
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre PPPP
+Usuario: 5
+usuario5
+cargo5
+Fecha creación: Thu Apr 04 11:51:24 CEST 2019
+Tipo de documento: DOCUMENTO_PADRON
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre PPPP
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Thu Apr 04 12:34:05 CEST 2019
+Tipo de documento: DOCUMENTO_PADRON
+************************************************************
+Documento nº2 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 2
+Nombre: nombre FFFF
+Usuario: 2
+usuario2
+cargo2
+Fecha creación: Thu Apr 04 12:34:22 CEST 2019
+Tipo de documento: DOCUMENTO_FACTURA
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre CCCC
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Thu Apr 04 12:35:44 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Documento nº2 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 2
+Nombre: nombre CCCC
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Thu Apr 04 12:36:50 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Documento nº3 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 3
+Nombre: nombre FFFF
+Usuario: 2
+usuario2
+cargo2
+Fecha creación: Thu Apr 04 12:37:04 CEST 2019
+Tipo de documento: DOCUMENTO_FACTURA
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre FFFF
+Usuario: 2
+usuario2
+cargo2
+Fecha creación: Thu Apr 04 12:38:22 CEST 2019
+Tipo de documento: DOCUMENTO_FACTURA
+************************************************************
+Documento nº2 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 2
+Nombre: nombre CCCC
+Usuario: 3
+usuario3
+cargo3
+Fecha creación: Thu Apr 04 12:38:36 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre FFFF
+Usuario: 2
+usuario2
+cargo2
+Fecha creación: Thu Apr 04 12:40:19 CEST 2019
+Tipo de documento: DOCUMENTO_FACTURA
+************************************************************
+Documento nº2 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 2
+Nombre: nombre CCCC
+Usuario: 3
+usuario3
+cargo3
+Fecha creación: Thu Apr 04 12:40:38 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre CCCC
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Thu Apr 04 12:43:17 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Documento nº2 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 2
+Nombre: nombre FFFF
+Usuario: 2
+usuario2
+cargo2
+Fecha creación: Thu Apr 04 12:43:27 CEST 2019
+Tipo de documento: DOCUMENTO_FACTURA
+************************************************************

@@ -1,0 +1,7 @@
+ID: 2
+Nombre: nombre CCCC
+Usuario: 3
+usuario3
+cargo3
+Fecha creación: Thu Apr 04 12:40:38 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
