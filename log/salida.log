@@ -39,3 +39,18 @@
 2019-04-05 12:03:03,597  WARN   [EadminApplication] Tipo de documento: DOCUMENTO_NOMINA 
 2019-04-05 12:03:03,597  WARN   [EadminApplication] ************************************************************ 
 2019-04-05 12:03:03,598  ERROR  [EadminApplication] El fichero no existe, creando documento 3 
+2019-04-05 12:09:01,047  INFO   [EadminApplication] Iniciando servicio 
+2019-04-05 12:09:04,167  INFO   [EadminApplication] Finalizando servicio 
+2019-04-05 12:09:13,676  INFO   [EadminApplication] Documento nº1 creado correctamente 
+2019-04-05 12:09:13,676  WARN   [EadminApplication] 
+************************************************************ 
+2019-04-05 12:09:13,676  WARN   [EadminApplication] Documento creado correctamente 
+2019-04-05 12:09:13,676  WARN   [EadminApplication] ID: 1 
+2019-04-05 12:09:13,676  WARN   [EadminApplication] Nombre: nombre NNNN 
+2019-04-05 12:09:13,676  WARN   [EadminApplication] Usuario: 3 
+2019-04-05 12:09:13,676  WARN   [EadminApplication] usuario3 
+2019-04-05 12:09:13,676  WARN   [EadminApplication] cargo3 
+2019-04-05 12:09:13,676  WARN   [EadminApplication] Fecha creación: Fri Apr 05 12:09:13 CEST 2019 
+2019-04-05 12:09:13,676  WARN   [EadminApplication] Tipo de documento: DOCUMENTO_NOMINA 
+2019-04-05 12:09:13,677  WARN   [EadminApplication] ************************************************************ 
+2019-04-05 12:09:13,678  ERROR  [EadminApplication] El fichero ya existe 
