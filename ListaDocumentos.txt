@@ -1,19 +1,7 @@
 ---------------------------------------------------------
 ID: 1
-Nombre: nombre CCCC
-Fecha creación: Fri Apr 05 12:02:37 CEST 2019
-Usuario: 1 usuario1 cargo1
-Tipo de documento: DOCUMENTO_CONTABLE
----------------------------------------------------------
-ID: 2
-Nombre: nombre FFFF
-Fecha creación: Fri Apr 05 12:02:52 CEST 2019
-Usuario: 2 usuario2 cargo2
-Tipo de documento: DOCUMENTO_FACTURA
----------------------------------------------------------
-ID: 3
 Nombre: nombre NNNN
-Fecha creación: Fri Apr 05 12:03:03 CEST 2019
+Fecha creación: Fri Apr 05 12:09:13 CEST 2019
 Usuario: 3 usuario3 cargo3
 Tipo de documento: DOCUMENTO_NOMINA
 ---------------------------------------------------------

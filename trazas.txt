@@ -36,3 +36,17 @@ cargo3
 Fecha creación: Fri Apr 05 12:03:03 CEST 2019
 Tipo de documento: DOCUMENTO_NOMINA
 ************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre NNNN
+Usuario: 3
+usuario3
+cargo3
+Fecha creación: Fri Apr 05 12:09:13 CEST 2019
+Tipo de documento: DOCUMENTO_NOMINA
+************************************************************

@@ -126,7 +126,7 @@ public class ServicioDocumentoImpl implements ServicioDocumento {
 					Cell celda2 = fila.createCell(2);
 					celda2.setCellValue(documento.getUsuario().getNombre());
 					Cell celda3 = fila.createCell(3);
-					celda3.setCellValue(documento.getFechaCreacion());
+					celda3.setCellValue(documento.getFechaCreacion().toString());
 					Cell celda4 = fila.createCell(4);
 					celda4.setCellValue(documento.getTipoDocumento().name());
 					j++;
