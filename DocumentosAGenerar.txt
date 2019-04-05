@@ -1,0 +1,34 @@
+{
+	"nombre": "nombre CCCC",
+	"usuario": "1",
+	"tipoDocumento": "DOCUMENTO_CONTABLE"
+
+}
+
+{
+	"nombre": "nombre FFFF",
+	"usuario": "2",
+	"tipoDocumento": "DOCUMENTO_FACTURA"
+
+}
+
+{
+	"nombre": "nombre NNNN",
+	"usuario": "3",
+	"tipoDocumento": "DOCUMENTO_NOMINA"
+
+}
+
+{
+	"nombre": "nombre SSSS",
+	"usuario": "4",
+	"tipoDocumento": "DOCUMENTO_SUBVENCION"
+
+}
+
+{
+	"nombre": "nombre PPPP",
+	"usuario": "5",
+	"tipoDocumento": "DOCUMENTO_PADRON"
+
+}

@@ -4,15 +4,26 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
 import org.apache.log4j.*;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellStyle;
+import org.apache.poi.ss.usermodel.FillPatternType;
+import org.apache.poi.ss.usermodel.IndexedColors;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.springframework.boot.SpringApplication;
 import org.springframework.stereotype.Repository;
 
 import es.fpdual.primero.eadmin.EadminApplication;
+import es.fpdual.primero.eadmin.Excel;
 import es.fpdual.primero.eadmin.modelo.AdministracionElectronicaException;
 import es.fpdual.primero.eadmin.modelo.Documento;
 import es.fpdual.primero.eadmin.modelo.DocumentoContable;

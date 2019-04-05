@@ -3,10 +3,21 @@ package es.fpdual.primero.eadmin;
 import java.util.Date;
 
 import org.apache.log4j.*;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellStyle;
+import org.apache.poi.ss.usermodel.FillPatternType;
+import org.apache.poi.ss.usermodel.IndexedColors;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.io.IOException;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.PrintWriter;
 
@@ -17,6 +28,7 @@ import es.fpdual.primero.eadmin.modelo.TipoDocumento;
 //import es.fpdual.primero.eadmin.modelo.DocumentoFactura;
 //import es.fpdual.primero.eadmin.modelo.TipoDocumento;
 import es.fpdual.primero.eadmin.modelo.Usuario;
+import es.fpdual.primero.eadmin.servicio.ServicioDocumentoImpl;;
 
 @SpringBootApplication
 public class EadminApplication {
@@ -57,11 +69,7 @@ public class EadminApplication {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-
-		
-		
-		
 	}
 
 }
+
