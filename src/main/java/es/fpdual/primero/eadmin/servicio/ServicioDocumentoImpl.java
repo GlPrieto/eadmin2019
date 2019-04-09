@@ -8,7 +8,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import org.apache.log4j.*;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.FillPatternType;
@@ -23,12 +24,15 @@ import org.springframework.stereotype.Service;
 import es.fpdual.primero.eadmin.modelo.Documento;
 import es.fpdual.primero.eadmin.repositorio.RepositorioDocumento;
 
+
 @Service
 public class ServicioDocumentoImpl implements ServicioDocumento {
 
 		private final RepositorioDocumento repositorioDocumento;
 		private static final Logger logger = LogManager.getLogger(ServicioDocumentoImpl.class);
 		private List<Documento> documentos = new ArrayList<>();
+	    
+	    
 		
 		@Autowired
 		public ServicioDocumentoImpl (RepositorioDocumento repositorioDocumento) {
@@ -48,6 +52,7 @@ public class ServicioDocumentoImpl implements ServicioDocumento {
 		
 		repositorioDocumento.altaDocumento(documentoModificado);
 		Excel();
+
 		return documentoModificado;
 	}
 
@@ -167,3 +172,4 @@ public class ServicioDocumentoImpl implements ServicioDocumento {
 	}
 
 }
+

@@ -50,3 +50,511 @@ cargo3
 Fecha creación: Fri Apr 05 12:09:13 CEST 2019
 Tipo de documento: DOCUMENTO_NOMINA
 ************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre NNNN
+Usuario: 3
+usuario3
+cargo3
+Fecha creación: Tue Apr 09 09:26:23 CEST 2019
+Tipo de documento: DOCUMENTO_NOMINA
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre NNNN
+Usuario: 3
+usuario3
+cargo3
+Fecha creación: Tue Apr 09 09:28:15 CEST 2019
+Tipo de documento: DOCUMENTO_NOMINA
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre NNNN
+Usuario: 3
+usuario3
+cargo3
+Fecha creación: Tue Apr 09 09:35:19 CEST 2019
+Tipo de documento: DOCUMENTO_NOMINA
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre NNNN
+Usuario: 3
+usuario3
+cargo3
+Fecha creación: Tue Apr 09 09:37:53 CEST 2019
+Tipo de documento: DOCUMENTO_NOMINA
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre NNNN
+Usuario: 3
+usuario3
+cargo3
+Fecha creación: Tue Apr 09 09:40:08 CEST 2019
+Tipo de documento: DOCUMENTO_NOMINA
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre NNNN
+Usuario: 3
+usuario3
+cargo3
+Fecha creación: Tue Apr 09 10:20:34 CEST 2019
+Tipo de documento: DOCUMENTO_NOMINA
+************************************************************
+Documento nº2 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 2
+Nombre: nombre SSSS
+Usuario: 4
+usuario4
+cargo4
+Fecha creación: Tue Apr 09 10:20:48 CEST 2019
+Tipo de documento: DOCUMENTO_SUBVENCION
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre CCCC
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 10:24:20 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Iniciando servicio
+Finalizando servicio
+Iniciando servicio
+Finalizando servicio
+Iniciando servicio
+Finalizando servicio
+Iniciando servicio
+Finalizando servicio
+Iniciando servicio
+Finalizando servicio
+Iniciando servicio
+Finalizando servicio
+Iniciando servicio
+Finalizando servicio
+Iniciando servicio
+Finalizando servicio
+Iniciando servicio
+Finalizando servicio
+Iniciando servicio
+Finalizando servicio
+Iniciando servicio
+Finalizando servicio
+Iniciando servicio
+Finalizando servicio
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre CCCC
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 12:12:43 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre CCCC
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 12:19:26 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Iniciando servicio
+Finalizando servicio
+Iniciando servicio
+Finalizando servicio
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre CCCC
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 12:46:21 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre CCCC
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 12:49:08 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre CCCC
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 12:53:30 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre CCCC
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 12:53:56 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre CCCC
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 12:54:41 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre CCCC
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 12:55:46 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre CCCC
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 13:02:49 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre CCCC
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 13:04:53 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre CCCC
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 13:06:56 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre CCCC
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 13:07:36 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: nombre CCCC
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 13:09:23 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: Documento contable nº. 1
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 13:10:26 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: Documento contable nº. 1
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 13:14:50 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: Documento contable nº. 1
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 13:16:56 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: Documento contable nº. 1
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 13:18:39 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: Documento contable nº. 1
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 13:30:40 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: Documento contable nº. 1
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 13:35:16 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: Documento contable nº. 1
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 13:35:44 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: Documento contable nº. 1
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 13:38:56 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: Documento contable nº. 1
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 13:39:52 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: Documento contable nº. 1
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 13:41:38 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: Documento contable nº. 1
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 13:43:20 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: Documento contable nº. 1
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 13:47:37 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: Documento contable nº. 1
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 13:50:25 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************

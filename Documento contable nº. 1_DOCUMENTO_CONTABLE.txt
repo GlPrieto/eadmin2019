@@ -1,0 +1,7 @@
+ID: 1
+Nombre: Documento contable nº. 1
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 13:10:26 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE

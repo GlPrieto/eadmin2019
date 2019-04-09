@@ -10,23 +10,17 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+
 import org.apache.log4j.*;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CellStyle;
-import org.apache.poi.ss.usermodel.FillPatternType;
-import org.apache.poi.ss.usermodel.IndexedColors;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.springframework.boot.SpringApplication;
 import org.springframework.stereotype.Repository;
 
+import com.itextpdf.text.*;
+import com.itextpdf.text.Font.FontFamily;
+import com.itextpdf.text.pdf.*;
+
 import es.fpdual.primero.eadmin.EadminApplication;
-import es.fpdual.primero.eadmin.Excel;
 import es.fpdual.primero.eadmin.modelo.AdministracionElectronicaException;
 import es.fpdual.primero.eadmin.modelo.Documento;
-import es.fpdual.primero.eadmin.modelo.DocumentoContable;
 import es.fpdual.primero.eadmin.modelo.TipoDocumento;
 
 @Repository
@@ -248,6 +242,26 @@ public class RepositorioDocumentoEnLista implements RepositorioDocumento {
 
 			e.printStackTrace();
 		}
+		
+		writePDF(documento);
+
+			try {
+				imagenAPDF (documento);
+			} catch (DocumentException | IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+
+
+			try {
+				creaQr(documento);
+			} catch (DocumentException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+
+
+
 
 	}
 
@@ -324,5 +338,148 @@ public class RepositorioDocumentoEnLista implements RepositorioDocumento {
 
 		return this.documentos.stream().filter(d -> d.getId() == codigoDocumento).findFirst().orElse(null);
 	}
+	
+	private static void writePDF(Documento documento) {
+		 
+		 Document document = new Document();
+		 
+        try {
+        	String path = new File(".").getCanonicalPath();
+        	String FILE_NAME = path + "/DocumentoAPDF.pdf";
+        	
+            PdfWriter.getInstance(document, new FileOutputStream(new File(FILE_NAME)));
+ 
+            document.open();
+ 
+            Paragraph paragraphHello = new Paragraph();
+            paragraphHello.add("Documento creado correctamente");
+            paragraphHello.setAlignment(Element.ALIGN_JUSTIFIED);
+ 
+            document.add(paragraphHello);
+ 
+            Paragraph paragraphLorem = new Paragraph();
+			switch (documento.getTipoDocumento()) {
+			case DOCUMENTO_CONTABLE:
+				paragraphLorem.add("\n" + "************************************************************");
+				paragraphLorem.add("\n" +"ID: " + documento.getId());
+				paragraphLorem.add("\n" +"Nombre: " + documento.getNombre());
+				paragraphLorem.add("\n" +"Usuario: " + documento.getUsuario().getId());
+				paragraphLorem.add("\n" +documento.getUsuario().getNombre());
+				paragraphLorem.add("\n" +documento.getUsuario().getCargo());
+				paragraphLorem.add("\n" +"Fecha creación: " + documento.getFechaCreacion());
+				paragraphLorem.add("\n" +"Tipo de documento: " + TipoDocumento.DOCUMENTO_CONTABLE);
+				paragraphLorem.add("\n" +"************************************************************");
+				break;
+			case DOCUMENTO_FACTURA:
+				paragraphLorem.add("\n" + "************************************************************");
+				paragraphLorem.add("\n" +"ID: " + documento.getId());
+				paragraphLorem.add("\n" +"Nombre: " + documento.getNombre());
+				paragraphLorem.add("\n" +"Usuario: " + documento.getUsuario().getId());
+				paragraphLorem.add("\n" +documento.getUsuario().getNombre());
+				paragraphLorem.add("\n" +documento.getUsuario().getCargo());
+				paragraphLorem.add("\n" +"Fecha creación: " + documento.getFechaCreacion());
+				paragraphLorem.add("\n" +"Tipo de documento: " + TipoDocumento.DOCUMENTO_FACTURA);
+				paragraphLorem.add("\n" +"************************************************************");
+				break;
+			case DOCUMENTO_NOMINA:
+				paragraphLorem.add("\n" + "************************************************************");
+				paragraphLorem.add("\n" +"ID: " + documento.getId());
+				paragraphLorem.add("\n" +"Nombre: " + documento.getNombre());
+				paragraphLorem.add("\n" +"Usuario: " + documento.getUsuario().getId());
+				paragraphLorem.add("\n" +documento.getUsuario().getNombre());
+				paragraphLorem.add("\n" +documento.getUsuario().getCargo());
+				paragraphLorem.add("\n" +"Fecha creación: " + documento.getFechaCreacion());
+				paragraphLorem.add("\n" +"Tipo de documento: " + TipoDocumento.DOCUMENTO_NOMINA);
+				paragraphLorem.add("\n" +"************************************************************");
+				break;
+			case DOCUMENTO_SUBVENCION:
+				paragraphLorem.add("\n" + "************************************************************");
+				paragraphLorem.add("\n" +"ID: " + documento.getId());
+				paragraphLorem.add("\n" +"Nombre: " + documento.getNombre());
+				paragraphLorem.add("\n" +"Usuario: " + documento.getUsuario().getId());
+				paragraphLorem.add("\n" +documento.getUsuario().getNombre());
+				paragraphLorem.add("\n" +documento.getUsuario().getCargo());
+				paragraphLorem.add("\n" +"Fecha creación: " + documento.getFechaCreacion());
+				paragraphLorem.add("\n" +"Tipo de documento: " + TipoDocumento.DOCUMENTO_SUBVENCION);
+				paragraphLorem.add("\n" +"************************************************************");
+				break;
+			case DOCUMENTO_PADRON:
+				paragraphLorem.add("\n" + "************************************************************");
+				paragraphLorem.add("\n" +"ID: " + documento.getId());
+				paragraphLorem.add("\n" +"Nombre: " + documento.getNombre());
+				paragraphLorem.add("\n" +"Usuario: " + documento.getUsuario().getId());
+				paragraphLorem.add("\n" +documento.getUsuario().getNombre());
+				paragraphLorem.add("\n" +documento.getUsuario().getCargo());
+				paragraphLorem.add("\n" +"Fecha creación: " + documento.getFechaCreacion());
+				paragraphLorem.add("\n" +"Tipo de documento: " + TipoDocumento.DOCUMENTO_PADRON);
+				paragraphLorem.add("\n" +"************************************************************");
+				break;
+			default:
+				paragraphLorem.add("\n" + "************************************************************");
+				paragraphLorem.add("\n" +"ID: " + documento.getId());
+				paragraphLorem.add("\n" +"Nombre: " + documento.getNombre());
+				paragraphLorem.add("\n" +"Usuario: " + documento.getUsuario().getId());
+				paragraphLorem.add("\n" +documento.getUsuario().getNombre());
+				paragraphLorem.add("\n" +documento.getUsuario().getCargo());
+				paragraphLorem.add("\n" +"Fecha creación: " + documento.getFechaCreacion());
+				paragraphLorem.add("\n" +"Tipo de documento: " + TipoDocumento.DOCUMENTO_CONTABLE);
+				paragraphLorem.add("\n" +"************************************************************");
+				break;
+			}
+            
+ 
+            Font f = new Font();
+            f.setFamily(FontFamily.COURIER.name());
+            f.setStyle(Font.BOLDITALIC);
+            f.setSize(8);
+            
+            Paragraph p3 = new Paragraph();
+            p3.setFont(f);
+            p3.add("Fin del documento");
+ 
+            document.add(paragraphLorem);
+            document.add(p3);
+            document.close();
+            
+        } catch (FileNotFoundException | DocumentException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+			e.printStackTrace();
+		}
+ 
+    }
+	
+	public static void imagenAPDF (Documento documento) throws DocumentException, IOException {
+		logger.info("Creación pdf");
+		Document document = new Document();
+		String path = new File(".").getCanonicalPath();
+    	String FILE_NAME = path + "/QR.pdf";
+    	
+        PdfWriter.getInstance(document, new FileOutputStream(new File(FILE_NAME)));
+
+        document.open();
+        Font f = new Font();
+        f.setFamily(FontFamily.COURIER.name());
+        f.setStyle(Font.BOLDITALIC);
+        f.setSize(8);
+        logger.info("Añadiendo parrafo a pdf");
+        Paragraph p = new Paragraph();
+        p.setFont(f);
+        p.add("Documento: " + documento.getNombre());
+        document.add(p);
+        document.add(creaQr(documento));
+        document.close();
+	}
+	public static Element creaQr(Documento documento) throws DocumentException  {
+        
+        logger.info("Creación QR");
+        BarcodeQRCode barcodeQRCode = new BarcodeQRCode(documento.getNombre(), 1000, 1000, null);
+        Image codeQrImage = barcodeQRCode.getImage();
+        codeQrImage.scaleAbsolute(100, 100);
+
+		return codeQrImage;
+        
+        
+}
 
 }

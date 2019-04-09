@@ -12,3 +12,45 @@ usuario3
 cargo3
 Fecha creación: Fri Apr 05 12:09:13 CEST 2019
 Tipo de documento: DOCUMENTO_NOMINA
+ID: 1
+Nombre: nombre NNNN
+Usuario: 3
+usuario3
+cargo3
+Fecha creación: Tue Apr 09 09:26:23 CEST 2019
+Tipo de documento: DOCUMENTO_NOMINA
+ID: 1
+Nombre: nombre NNNN
+Usuario: 3
+usuario3
+cargo3
+Fecha creación: Tue Apr 09 09:28:15 CEST 2019
+Tipo de documento: DOCUMENTO_NOMINA
+ID: 1
+Nombre: nombre NNNN
+Usuario: 3
+usuario3
+cargo3
+Fecha creación: Tue Apr 09 09:35:19 CEST 2019
+Tipo de documento: DOCUMENTO_NOMINA
+ID: 1
+Nombre: nombre NNNN
+Usuario: 3
+usuario3
+cargo3
+Fecha creación: Tue Apr 09 09:37:53 CEST 2019
+Tipo de documento: DOCUMENTO_NOMINA
+ID: 1
+Nombre: nombre NNNN
+Usuario: 3
+usuario3
+cargo3
+Fecha creación: Tue Apr 09 09:40:08 CEST 2019
+Tipo de documento: DOCUMENTO_NOMINA
+ID: 1
+Nombre: nombre NNNN
+Usuario: 3
+usuario3
+cargo3
+Fecha creación: Tue Apr 09 10:20:34 CEST 2019
+Tipo de documento: DOCUMENTO_NOMINA

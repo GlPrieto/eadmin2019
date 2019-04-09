@@ -1,0 +1,7 @@
+ID: 2
+Nombre: nombre SSSS
+Usuario: 4
+usuario4
+cargo4
+Fecha creación: Tue Apr 09 10:20:48 CEST 2019
+Tipo de documento: DOCUMENTO_SUBVENCION
