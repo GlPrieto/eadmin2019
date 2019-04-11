@@ -1,5 +1,6 @@
 package es.fpdual.primero.eadmin.controlador;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 import es.fpdual.primero.eadmin.modelo.Documento;
@@ -23,7 +24,7 @@ public class DocumentoRequestMapper {
 	
 	public static Documento toDocumentoCompleto (
 			DocumentoRequest documentoRequest,
-			int id, Date fecha) {
+			int id, LocalDate fecha) {
 		return new Documento(id, 
 				documentoRequest.getNombre(),
 				construyeUsuario(documentoRequest),

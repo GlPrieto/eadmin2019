@@ -1,5 +1,6 @@
 package es.fpdual.primero.eadmin.modelo;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -10,7 +11,7 @@ public class Expediente extends AdministracionElectronicaBase{
 	private final TipoExpediente tipoExpediente;
 	private final List <Documento> documentos;
 	
-	public Expediente(int id, String nombre, Usuario usuario, Date fechaCreacion, 
+	public Expediente(int id, String nombre, Usuario usuario, LocalDate fechaCreacion, 
 			TipoExpediente tipoExpediente, List<Documento> documentos) {
 		this.id = id;
 		this.nombre = nombre;

@@ -1,7 +1,0 @@
-ID: 2
-Nombre: nombre FFFF
-Usuario: 2
-usuario2
-cargo2
-Fecha creación: Fri Apr 05 12:02:52 CEST 2019
-Tipo de documento: DOCUMENTO_FACTURA

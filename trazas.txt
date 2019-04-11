@@ -558,3 +558,45 @@ cargo1
 Fecha creación: Tue Apr 09 13:50:25 CEST 2019
 Tipo de documento: DOCUMENTO_CONTABLE
 ************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: Documento contable nº. 1
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 14:06:42 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: Documento contable nº. 1
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 14:23:15 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************
+Iniciando servicio
+Finalizando servicio
+Documento nº1 creado correctamente
+
+************************************************************
+Documento creado correctamente
+ID: 1
+Nombre: Documento contable nº. 1
+Usuario: 1
+usuario1
+cargo1
+Fecha creación: Tue Apr 09 14:27:03 CEST 2019
+Tipo de documento: DOCUMENTO_CONTABLE
+************************************************************

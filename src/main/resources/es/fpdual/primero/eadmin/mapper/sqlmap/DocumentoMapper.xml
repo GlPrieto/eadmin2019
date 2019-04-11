@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="es.fpdual.primero.eadmin.mapper.DocumentoMapper">
+
+	<insert id="insertarDocumento">
+        INSERT INTO DOCUMENTO (
+            id,
+            nombre,
+            usuario,
+            fechaCreacion,
+            tipoDocumento
+        ) VALUES (
+            #{documento.id}, /*id*/
+            #{documento.nombre}, /*nombre,*/
+            #{documento.usuario}, /*usuario,*/
+            #{documento.fechaCreacion}, /*fechaCreacion,*/
+            #{documento.tipoDocumento} /*tipoDocumento*/
+        )        
+    </insert>
+    
+</mapper>

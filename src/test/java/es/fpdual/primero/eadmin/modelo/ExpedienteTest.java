@@ -4,6 +4,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -16,10 +17,10 @@ public class ExpedienteTest {
 		
 		final Usuario usuario = new Usuario (4, "bob", "chef");
 		//inicialización
-		final DocumentoContable documentoContable = new DocumentoContable (10, "operacion contable", usuario, new Date(), "00001254684686");
+		final DocumentoContable documentoContable = new DocumentoContable (10, "operacion contable", usuario, LocalDate.now(), "00001254684686");
 		
-		final Documento documento = new DocumentoContable (15, "operacion", usuario, new Date(), "99991254684686");
-		final Documento documentoNuevo = new Documento (20, "nuevo documento", usuario, new Date(), TipoDocumento.DOCUMENTO_PADRON);
+		final Documento documento = new DocumentoContable (15, "operacion", usuario, LocalDate.now(), "99991254684686");
+		final Documento documentoNuevo = new Documento (20, "nuevo documento", usuario, LocalDate.now(), TipoDocumento.DOCUMENTO_PADRON);
 		
 		final List <Documento> documentos = new ArrayList<>();
 		documentos.add(documentoContable);
@@ -78,7 +79,7 @@ public class ExpedienteTest {
 				}
 		//ejecución
 		final Expediente expediente = 
-				new Expediente (1,"expediente1", usuario, new Date(), TipoExpediente.EXPEDIENTE_SANCIONADOR, documentos);
+				new Expediente (1,"expediente1", usuario, LocalDate.now(), TipoExpediente.EXPEDIENTE_SANCIONADOR, documentos);
 		//comprobación de resultados
 		assertEquals(documentos, expediente.getDocumentos());
 		assertTrue(expediente.getDocumentos().contains(documentoContable));
@@ -91,14 +92,14 @@ public class ExpedienteTest {
 		final Usuario usuario = new Usuario (4, "bob", "chef");
 		
 		//inicialización
-		final DocumentoContable doc1 = new DocumentoContable (1, "uno", usuario, new Date(), "00001254684686");
+		final DocumentoContable doc1 = new DocumentoContable (1, "uno", usuario, LocalDate.now(), "00001254684686");
 		
-		final Documento doc2 = new DocumentoContable (2, "tres", usuario, new Date(), "99991254684686");
+		final Documento doc2 = new DocumentoContable (2, "tres", usuario, LocalDate.now(), "99991254684686");
 		
 		final List <Documento> documentos = new ArrayList<>();
 		documentos.add(doc1);
 		documentos.add(doc2);
-		final Expediente expediente = new Expediente(1,"expediente1", usuario, new Date(), TipoExpediente.EXPEDIENTE_SUBVENCION,documentos);
+		final Expediente expediente = new Expediente(1,"expediente1", usuario, LocalDate.now(), TipoExpediente.EXPEDIENTE_SUBVENCION,documentos);
 		
 		//ejecución
 		

@@ -25,6 +25,7 @@ import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.time.LocalDate;
 import java.util.UUID;
 import java.util.logging.Level;
 import javax.imageio.ImageIO;
@@ -40,7 +41,7 @@ public class EadminApplication {
 	public static void main(String[] args) throws DocumentException, IOException, WriterException {
 
 		final Usuario usuario = new Usuario(4, "bob", "chef");
-		final Date fecha = new Date();
+		LocalDate fecha = LocalDate.now();
 
 		final DocumentoContable documentoContable = new DocumentoContable(10, "operacion contable", usuario, fecha,
 				"00001254684686");

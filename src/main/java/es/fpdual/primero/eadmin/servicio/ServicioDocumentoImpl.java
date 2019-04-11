@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -42,7 +43,7 @@ public class ServicioDocumentoImpl implements ServicioDocumento {
 	@Override
 	public Documento altaDocumento(Documento documento) {
 		final int siguienteId = repositorioDocumento.getSiguienteId();
-		final Date fechaActual = new Date();
+		final LocalDate fechaActual = LocalDate.now();
 		
 		Documento documentoModificado = new Documento (
 				siguienteId, documento.getNombre(), 

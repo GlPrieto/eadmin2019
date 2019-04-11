@@ -1,12 +1,13 @@
 package es.fpdual.primero.eadmin.modelo;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Documento extends AdministracionElectronicaBase {
 
 	private final TipoDocumento tipoDocumento;
 	
-	public Documento(int id, String nombre, Usuario usuario, Date fechaCreacion, TipoDocumento tipoDocumento) {
+	public Documento(int id, String nombre, Usuario usuario, LocalDate fechaCreacion, TipoDocumento tipoDocumento) {
 		this.id = id;
 		this.nombre = nombre;
 		this.usuario = usuario;
