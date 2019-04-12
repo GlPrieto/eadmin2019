@@ -12,10 +12,43 @@
         ) VALUES (
             #{documento.id}, /*id*/
             #{documento.nombre}, /*nombre,*/
-            #{documento.usuario}, /*usuario,*/
+            #{documento.usuario.id}, /*usuario,*/
             #{documento.fechaCreacion}, /*fechaCreacion,*/
             #{documento.tipoDocumento} /*tipoDocumento*/
         )        
     </insert>
+    
+    <select id= "getDocumento" resultMap="documentoResultMap">
+    SELECT id,
+           nombre,
+           usuario,
+           fechaCreacion,
+           tipoDocumento
+    FROM DOCUMENTO
+    WHERE id=#{id}
+    </select>
+    
+    <resultMap type="es.fpdual.primero.eadmin.modelo.Documento" id="documentoResultMap">
+        <constructor>
+            <idArg column="id" javaType="integer"/>
+            <arg column="nombre" javaType="string" />
+            <arg column="usuario" javaType="es.fpdual.primero.eadmin.modelo.Usuario" resultMap="usuarioResultMap"/>            
+            <arg column="fechaCreacion" javaType="java.time.LocalDate"/>
+            <arg column="tipoDocumento" javaType="es.fpdual.primero.eadmin.modelo.TipoDocumento"/>
+        </constructor>
+    </resultMap>
+    
+    <resultMap type="es.fpdual.primero.eadmin.modelo.Usuario" id="usuarioResultMap">
+        <constructor>
+            <idArg column="id" javaType="integer"/>
+        </constructor>
+    </resultMap>
+    
+    <update id= "actualizarDocumento">
+    Update DOCUMENTO Set
+           nombre = #{documento.nombre},
+           tipoDocumento = #{documento.tipoDocumento}
+    WHERE id=#{documento.id}
+    </update>
     
 </mapper>
