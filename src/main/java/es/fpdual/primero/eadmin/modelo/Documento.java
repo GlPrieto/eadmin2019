@@ -2,6 +2,12 @@ package es.fpdual.primero.eadmin.modelo;
 
 import java.time.LocalDate;
 
+import lombok.Getter;
+import lombok.ToString;
+
+@Getter
+// @EqualsAndHashCode(callSuper = true)
+@ToString
 public class Documento extends AdministracionElectronicaBase {
 
 	private final TipoDocumento tipoDocumento;
@@ -14,9 +20,9 @@ public class Documento extends AdministracionElectronicaBase {
 		this.tipoDocumento = tipoDocumento;
 	}
 
-	public TipoDocumento getTipoDocumento() {
-		return tipoDocumento;
-	}
+	// public TipoDocumento getTipoDocumento() {
+	// return tipoDocumento;
+	// }
 
 	@Override
 	public boolean equals(Object obj) {
@@ -26,11 +32,11 @@ public class Documento extends AdministracionElectronicaBase {
 		}
 		return false;
 	}
-
-	@Override
-	public String toString() {
-		return "Documento " + id + ", nombre: " + nombre;
-	}
+	//
+	// @Override
+	// public String toString() {
+	// return "Documento " + id + ", nombre: " + nombre;
+	// }
 
 	public static DocumentoBuilder builder() {
 		return Documento.DocumentoBuilder.builder();
