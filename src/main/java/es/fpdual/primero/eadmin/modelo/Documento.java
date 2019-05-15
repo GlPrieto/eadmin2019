@@ -14,10 +14,6 @@ public class Documento extends AdministracionElectronicaBase {
 		this.tipoDocumento = tipoDocumento;
 	}
 
-	public Documento() {
-		this(null, null, null, null, null);
-	}
-
 	public TipoDocumento getTipoDocumento() {
 		return tipoDocumento;
 	}

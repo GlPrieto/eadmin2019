@@ -7,66 +7,59 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Test;
 
 public class DoumentoTest {
-	
+
 	@Test
-	public void deberiaDevolverTrueSiDosObjetosDocumentosSonIguales () {
-		
-		//inicialización -- Estos comentarios no deberían ponerse,
-		//pero sirven como guía cuando se empieza
-		final Documento documento1 = 
-				new Documento (1,null, null, null, null);
-		final Documento documento2 = 
-				new Documento (1,null, null, null, null);
-		
-		//ejecución
+	public void deberiaDevolverTrueSiDosObjetosDocumentosSonIguales() {
+
+		// inicialización -- Estos comentarios no deberían ponerse,
+		// pero sirven como guía cuando se empieza
+		final Documento documento1 = new Documento(1, null, null, null, null);
+		final Documento documento2 = new Documento(1, null, null, null, null);
+
+		// ejecución
 		final boolean resultado = documento1.equals(documento2);
-		
-		//comprobación de resultados
-		assertTrue(resultado);//100%
+
+		// comprobación de resultados
+		assertTrue(resultado);// 100%
 	}
-	
+
 	@Test
-	public void deberiaDevolverTrueSiDosObjetosDocumentosSonDistintos () {
-		
-		//inicialización -- Estos comentarios no deberían ponerse,
-		//pero sirven como guía cuando se empieza
-		final Documento documento1 = 
-				new Documento (1,null, null, null, null);
-		final Documento documento2 = 
-				new Documento (2,null, null, null, null);
-		
-		//ejecución
+	public void deberiaDevolverTrueSiDosObjetosDocumentosSonDistintos() {
+
+		// inicialización -- Estos comentarios no deberían ponerse,
+		// pero sirven como guía cuando se empieza
+		final Documento documento1 = new Documento(1, null, null, null, null);
+		final Documento documento2 = new Documento(2, null, null, null, null);
+
+		// ejecución
 		final boolean resultado = documento1.equals(documento2);
-		
-		//comprobación de resultados
-		assertFalse(resultado);//100%
+
+		// comprobación de resultados
+		assertFalse(resultado);// 100%
 	}
-	
+
 	@Test
-	public void deberiaDevolverFalseSiNoEsDocumento () {
-		
-		//inicialización -- Estos comentarios no deberían ponerse,
-		//pero sirven como guía cuando se empieza
-		final Documento documento = 
-				new Documento (1,null, null, null, null);
-		final Expediente expediente = 
-				new Expediente (2,null, null, null, null, null);
-		
-		//ejecución
-		final boolean resultado = documento.equals(expediente);
-		
-		//comprobación de resultados
-		assertFalse(resultado);//100%
+	public void deberiaDevolverFalseSiNoEsDocumento() {
+
+		// inicialización -- Estos comentarios no deberían ponerse,
+		// pero sirven como guía cuando se empieza
+		final Documento documento1 = new Documento(1, null, null, null, null);
+		final Documento documento2 = new Documento(2, null, null, null, null);
+
+		// ejecución
+		final boolean resultado = documento1.equals(documento2);
+
+		// comprobación de resultados
+		assertFalse(resultado);// 100%
 	}
-	
+
 	@Test
-	public void deberiaCalcularHashCodeDeDocumento () {
-		final Documento documento = 
-				new Documento (100,null, null, null, null);
-		
+	public void deberiaCalcularHashCodeDeDocumento() {
+		final Documento documento = new Documento(100, null, null, null, null);
+
 		final int resultado = documento.hashCode();
-		
-		assertEquals(100,resultado);
+
+		assertEquals(100, resultado);
 	}
-	
+
 }
